@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-size: 100%;
+    background-image: url("../images/Loan\ Application.jpg");
+}
+
+button{
+    border-radius: 5px;
+}
+
+.applicationTable{
+    background-color: #fff;
+    border-radius: 2%;
+    padding: 2%;
+    margin: auto;
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.container {
+    margin: 50px auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #A6D0DD;
+}
+
+.info{
+    padding: 5px;
+    margin: 10px;
+    background-color: #2a808f;
+    border-radius: 10px;
+}
+
+ .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+    margin: 2px;
+    padding: 15px;
+    font-size: 30px;
+} 
+
+#data{
+    text-align: left;
+}
+
+ /* for moblile site */ 
+ @media  (min-width: 768px){
+    .container{
+        width: 40%;
+    }
+}

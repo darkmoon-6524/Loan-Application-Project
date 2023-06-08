@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url("../images/Loan\ Application.jpg");
+    background-size: 100%;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    background-color: #A6D0DD;
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+header{
+    margin-bottom: 10%;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+ /* for moblile site */ 
+ @media  (min-width: 768px){
+    .container{
+        width: 40%;
+    }
+}
